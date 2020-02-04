@@ -1,1 +1,1 @@
-https://github.com/Raizer58/rs-school-test
+https://Raizer58.github.io/rs-school-test/
