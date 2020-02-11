@@ -2,39 +2,48 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8" content="resume">
-        <title>My resume</title>
+        <title>Resume Maksim Slivin</title>
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
-            <div class="h1_1"> <h1>This is my first web-page</h1> </div>
-            <div class="photo_1"><img class="img_1"src="photo_1.png" alt="JavaScripte" title="JavaScripte" width="100%"></div>
+            <h1>Resume Maksim Slivin</h1>
         </header>
         <main>
-            <ol>
-            <li>Maksim, Slivin</li>
-            <li>Telegram: @RaizerImba;<br> 
-                E-mail: Raizer9058w@gmail.com</li>
-            <li>My dream is to become a programmer since childhood. <br> 
+            <div class="contact-info">
+            <img src="image/contact.svg" alt="Contact info" title="Contact info"> 
+             <p>Telegram: @RaizerImba;<br> 
+                E-mail: Raizer9058w@gmail.com</p>
+            </div>
+            <div class="about-me">
+            <img src="image/about_me.svg" alt="About me" title="About me"> 
+                <p>My dream is to become a programmer since childhood. <br> 
                 It’s a pity that I couldn’t get started earlier. <br> 
                 I want to become a junior front-end developer and, <br> 
                 after some time, more expensive to a senior front-end developer. <br>
                 I mean the mathematical mindset and well-developed logic. <br> 
                 I try to quickly learn everything new that is necessary for work. <br> 
-                I like to constantly develop and achieve my goals.</li>
-            <li> My skils:
+                I like to constantly develop and achieve my goals.</p> 
+            </div>
+            <div class="my-skils">
+            <img src="image/skils.svg" alt="My skils" title="My skils"> 
+             <p> My skils:
                 <ul>
                 <li>JavaScript - I understand the object, function, prototype, promise, class, closures, etc. <br> 
                 Successfully cope with the tasks of codewars 4-6kyu. Familiar with the principles of OOP; </li>
                 <li>HTML;</li>
                 <li>CSS;</li>
                 <li>GIT;</li>
-                <li>Photoshop.</li></ul></li>
-<li><div class="code"><pre><code>function isPalindrome(line) {
-    return line == String(line).split("").reverse().join("") ? true : false
+                <li>Photoshop.</li></ul>
+            </p>
+            </div>
+<div class="example-code">
+    <img src="image/example_code.svg" alt="Example code" title="Example code">
+    <pre><code>function isPalindrome(line) {
+    return line == String(line).split("").reverse().join("")?true:false
 } 
 
-let removeChar = str => {return str.split("").splice(1).slice(0, -1).join("")} 
+let removeChar = str => str.split("").splice(1).slice(0, -1).join("") 
 
 function createMessage(...args) {
     return function(...arg2) {
@@ -43,9 +52,14 @@ function createMessage(...args) {
         }
     return args.reduce((a, b) => {return a + " " + b})       
     }
-};</code></pre></div></li>
-            <li> No experience</li>
-            <li>2016 <br>
+};</code></preclass="code"></div></li>
+            <div class="expirience">
+            <img src="image/expirience.svg" alt="Expirience" title="Expirience">
+            <p> No experience </p>
+            </div>
+            <div class="education ">
+            <img src="image/education.svg" alt="Education" title="Education">
+            <p>2016 <br>
             Penza State University, Penza <br>
             Economics and finance, Financial management <br> <br>
 
@@ -56,14 +70,20 @@ function createMessage(...args) {
 
             2019 SoloLearn - JavaScript Tutorial Course <br> <br>
             2020 learn.javascript.ru - Self education <br> <br>
-            2020 SoloLearn - HTML Fundamentals course</li>
-
-            <li>A1 - Elementary</li>
-            </ol>
+            2020 SoloLearn - HTML Fundamentals course
+            </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="languge">
+            <img src="image/languge.svg" alt="Languge" title="Languge">
+            <p>
+            A1 - Elementary
+            </p>
+            </div>
         </main>
     </body>
 
-    <footer style="height:50px;">
+    <footer>
        <div><i>Create by @Raizer58</i></div>
     </footer>
 </html>
